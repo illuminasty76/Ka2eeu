@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KA2EEU — Amateur Radio</title>
+    <meta
+      name="description"
+      content="KA2EEU — amateur radio operator. On the air from ka2eeu.net."
+    />
+    <link rel="canonical" href="https://ka2eeu.net/" />
+    <meta property="og:title" content="KA2EEU — Amateur Radio" />
+    <meta
+      property="og:description"
+      content="Amateur radio callsign KA2EEU. On the air from ka2eeu.net."
+    />
+    <meta property="og:url" content="https://ka2eeu.net/" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&family=Unbounded:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="mark" href="#top" aria-label="KA2EEU home">KA2EEU</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#station">Station</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="callsign">
+        <div class="hero-atmosphere" aria-hidden="true">
+          <svg class="wave-field" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="sky" x1="0" y1="0" x2="0.2" y2="1">
+                <stop offset="0%" stop-color="#1a3a5c" />
+                <stop offset="55%" stop-color="#0d2137" />
+                <stop offset="100%" stop-color="#071018" />
+              </linearGradient>
+              <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#f0a04b" stop-opacity="0" />
+                <stop offset="70%" stop-color="#f0a04b" stop-opacity="0.35" />
+                <stop offset="100%" stop-color="#e07a2f" stop-opacity="0.55" />
+              </linearGradient>
+            </defs>
+            <rect width="1440" height="900" fill="url(#sky)" />
+            <rect y="520" width="1440" height="380" fill="url(#horizon)" />
+            <g class="waves" fill="none" stroke="#7eb8d8" stroke-width="1.25" stroke-opacity="0.45">
+              <path class="wave w1" d="M-40 420 C 180 320, 360 520, 580 420 S 980 320, 1200 420 S 1480 520, 1600 420" />
+              <path class="wave w2" d="M-40 470 C 200 370, 380 570, 600 470 S 1000 370, 1220 470 S 1500 570, 1620 470" />
+              <path class="wave w3" d="M-40 520 C 220 420, 400 620, 620 520 S 1020 420, 1240 520 S 1520 620, 1640 520" />
+              <path class="wave w4" d="M-40 570 C 240 470, 420 670, 640 570 S 1040 470, 1260 570 S 1540 670, 1660 570" />
+            </g>
+            <g class="antenna" fill="none" stroke="#dce8f2" stroke-width="2" stroke-linecap="round">
+              <line x1="1120" y1="780" x2="1120" y2="280" />
+              <line x1="1040" y1="340" x2="1200" y2="340" />
+              <line x1="1060" y1="400" x2="1180" y2="400" />
+              <line x1="1080" y1="460" x2="1160" y2="460" />
+              <circle cx="1120" cy="280" r="6" fill="#f0a04b" stroke="none" />
+            </g>
+          </svg>
+        </div>
+
+        <div class="hero-copy">
+          <p class="hero-freq" aria-hidden="true">
+            <span class="freq-dot"></span>
+            14.074 · FT8 · CQ
+          </p>
+          <h1 id="callsign" class="callsign">KA2EEU</h1>
+          <p class="hero-lead">
+            Amateur radio operator — listening, calling, and learning on HF and VHF.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-ghost" href="#about">About the call</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-heading">
+        <div class="section-inner">
+          <h2 id="about-heading">On the air as KA2EEU</h2>
+          <p class="section-lead">
+            KA2EEU is my FCC amateur radio callsign. This site is the home base for
+            the call — a simple place to confirm who you worked, how to reach me,
+            and what I’m operating.
+          </p>
+        </div>
+      </section>
+
+      <section id="station" class="section station" aria-labelledby="station-heading">
+        <div class="section-inner">
+          <h2 id="station-heading">Station interests</h2>
+          <p class="section-lead">
+            Focused on making clean contacts and building operating skill — from
+            digital modes to voice when the bands open.
+          </p>
+          <ul class="interest-list">
+            <li>
+              <span class="interest-label">Bands</span>
+              <span class="interest-value">HF · VHF · UHF</span>
+            </li>
+            <li>
+              <span class="interest-label">Modes</span>
+              <span class="interest-value">SSB · CW · FT8 / digital</span>
+            </li>
+            <li>
+              <span class="interest-label">Grid</span>
+              <span class="interest-value">Coming soon</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" aria-labelledby="contact-heading">
+        <div class="section-inner">
+          <h2 id="contact-heading">QSL &amp; contact</h2>
+          <p class="section-lead">
+            Worked KA2EEU? Drop a note with your call, band, mode, and UTC time.
+            I’ll confirm when I can.
+          </p>
+          <p class="contact-line">
+            <a href="mailto:scott@ka2eeu.net">scott@ka2eeu.net</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span class="footer-call">KA2EEU</span>
+        <span class="footer-sep" aria-hidden="true">·</span>
+        <span>Amateur radio · ka2eeu.net</span>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
