@@ -41,5 +41,6 @@ Static site served by a small Node process (`npm start`) on Azure Linux Node 24.
 ## Customize
 
 - Confirm the email in `index.html` (`scott@ka2eeu.net`)
-- Add your Maidenhead grid square under Station interests
-- Swap the hero SVG for a station/antenna photo if you prefer
+- Grid square is set to **EM20hc** (Spring / Old Town Spring area) — update if you change QTH
+- Do not publish a street address on the site
+- Swap the hero SVG for a station/antenna/repeater photo when you have one
