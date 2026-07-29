@@ -1,0 +1,13 @@
+{
+  "name": "ka2eeu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Amateur radio callsign site for KA2EEU",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
