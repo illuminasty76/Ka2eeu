@@ -12,6 +12,19 @@ Custom domain planned: **www.ka2eeu.net**
 
 Pushes to `main` deploy via GitHub Actions (`.github/workflows/main_ka2eeu.yml`).
 
+### Azure OIDC (federated identity)
+
+This repo uses GitHub’s immutable OIDC subject. The Entra app registration federated credential for GitHub Actions must use this **exact** subject:
+
+```text
+repo:illuminasty76@25125527/Ka2eeu@1315673277:ref:refs/heads/main
+```
+
+Issuer: `https://token.actions.githubusercontent.com`  
+Audience: `api://AzureADTokenExchange`
+
+If login fails with `AADSTS700213`, update or recreate that federated credential to match the subject above (Portal → App registrations → your deploy app → Certificates & secrets → Federated credentials).
+
 ## Local preview
 
 ```bash
